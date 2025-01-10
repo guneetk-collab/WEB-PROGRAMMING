@@ -1,0 +1,35 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.parent{
+background-color: red;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.child1{
+background-color: cyan;
+padding: 10px;
+text-align: center;
+}
+
+.child2{
+flex-grow: 1;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+.child3{
+background-color: purple;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+
+
